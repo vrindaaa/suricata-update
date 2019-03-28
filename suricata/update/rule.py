@@ -158,7 +158,7 @@ def find_opt_end(options):
             offset += 2
         else:
             return offset + i
-
+            
 def parse(buf, group=None):
     """ Parse a single rule for a string buffer.
 
